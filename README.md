@@ -3,12 +3,10 @@ Template website
 
 After cloning this repo
 
-cd sweet-as-organics-api
+cd Template
 
 npm install
 
-npm run knex migrate:latest
-
-npm run knex seed:run
+npm run db:reset
 
 npm run dev
